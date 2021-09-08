@@ -4,6 +4,7 @@ service:
 plugins:
   - serverless-bundle
   - serverless-pseudo-parameters
+  - serverless-plugin-typescript
 
 provider:
   name: aws
@@ -17,7 +18,3 @@ provider:
 functions:
   sendMail:
     handler: src/handlers/sendMail.handler
-
-custom:
-  bundle:
-    linting: false

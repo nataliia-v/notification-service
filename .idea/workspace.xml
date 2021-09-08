@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1078442-a279-4122-b215-1fc01873b6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iam/SendMailIAM.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serverless.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/sendMail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/sendMail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/sendMail.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -34,6 +41,23 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631048455595</updated>
-      <workItem from="1631048456754" duration="3830000" />
+      <workItem from="1631048456754" duration="6356000" />
     </task>
     <servers />
   </component>
@@ -54,5 +78,21 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="582" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1631049812271" />
+    <state width="1659" height="359" key="GridCell.Tab.0.bottom" timestamp="1631090540726">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="359" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1631090540726" />
+    <state width="1659" height="359" key="GridCell.Tab.0.center" timestamp="1631090540725">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="359" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1631090540725" />
+    <state width="1659" height="359" key="GridCell.Tab.0.left" timestamp="1631090540722">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="359" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1631090540722" />
+    <state width="1659" height="359" key="GridCell.Tab.0.right" timestamp="1631090540726">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="359" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1631090540726" />
   </component>
 </project>
