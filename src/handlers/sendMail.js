@@ -1,9 +1,8 @@
 import AWS from 'aws-sdk';
-import {HttpEventRequest} from "../types/types";
 
 const ses = new AWS.SES({ region: 'eu-west-1' });
 
-const sendMail = async (event: HttpEventRequest, context) => {
+const sendMail = async (event, context) => {
   const params = {
     Source: 'nataly.verbenskaya@gmail.com',
     Destination: {
