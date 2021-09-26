@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1078442-a279-4122-b215-1fc01873b6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iam/MailQueueIAM.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/MailQueue.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/MailQueue.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/MailQueue.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serverless.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/sendMail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/sendMail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,5 +92,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="359" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1631090540726" />
+    <state x="1010" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1632672186713">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1010" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1632672186713" />
   </component>
 </project>
